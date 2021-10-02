@@ -1,0 +1,156 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:#1855a3;
+}
+header .navbar{
+    background-color:#1855a3;
+}
+ .navbar-brand{
+    font-weight: bold;
+    font-size: 0.9in;
+}
+.btn{
+    color:white !important;
+    background-color: black;
+}
+.login{
+    font-weight:900;
+}
+.text-head{
+    font-weight: 600;
+    color: black;
+}
+.Lorem{
+    color: black;
+    font-size: 0.25in;
+    font-weight: 900;
+}
+.learnmore{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    transition: all 0.1s linear;
+}
+.learnmore:hover{
+    background-color: #1e64c0;
+    color: black !important;
+    border-color: white;
+    border-width: 3px;
+}
+.fa{
+    color: white;
+}
+.Lorem{
+    font-weight: 1px;
+}
+.one:hover{
+    color: goldenrod !important;
+}
+.col-md-4 .hover2:hover{
+    border-color:whitesmoke;
+    border-width: 2px;
+    color:rgb(98, 98, 165) !important;
+    font-weight: bold;
+}
+.hover3:hover{
+    border-color:whitesmoke;
+    border-width: 2px;
+    color: orange!important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.hover4:hover{
+    border-color:whitesmoke;
+    border-width: 2px;
+    color: green!important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.hover5:hover{
+    border-color:whitesmoke;
+    border-width: 2px;
+    color: red!important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.hover6:hover{
+    border-color:whitesmoke;
+    border-width: 2px;
+    color: black!important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.card.shadow img{
+    border-radius: 15px;
+}
+.hover2{
+    font-size: 0.3in;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(98, 98, 165);
+    font-weight: 700;
+}
+.hover3{
+    font-size: 0.3in;
+    text-transform: uppercase;
+    text-align: center;
+    color: orange;
+    font-weight: 700;
+}
+.hover4{
+    font-size: 0.3in;
+    text-transform: uppercase;
+    text-align: center;
+    color: green;
+    font-weight: 700;
+}
+.hover5{
+    font-size: 0.3in;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+.hover6{
+    font-size: 0.3in;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+.two{
+    background-color: black;
+    color: white;
+}
+h3{
+    color: green;
+    font-size: 0.5in;
+    font-weight: bolder;
+    text-align: center;
+}
+.col-md-12 h3{
+    color: goldenrod !important;
+}
+.col-md-12 p{
+    color: green;
+    font-size: 0.3in;
+    font-weight: bolder;
+    text-align: center;
+}
+/* Responsiveness */
+/* mobile-576 */
+/* tablet-767 */
+/* desktop-900 above */
+@media(max-width: 576px){
+    .text-head{
+        padding-top: 30px;
+    }
+    .img{
+        padding-top: 4rem;
+    }
+}
