@@ -21,6 +21,13 @@ header .navbar{
 .login{
     font-weight:900;
 }
+.login:hover{
+    color: black !important;
+    background-color: #1e64c0;
+    border-color: white;
+    font-weight: 900;
+    border-width: 2px;
+}
 .text-head{
     font-weight: 600;
     color: black;
@@ -137,7 +144,7 @@ h3{
     color: goldenrod !important;
 }
 .col-md-12 p{
-    color: green;
+    color: goldenrod;
     font-size: 0.3in;
     font-weight: bolder;
     text-align: center;

@@ -22,6 +22,16 @@ header .navbar{
 .login{
     font-weight:900;
 }
+.login:hover{
+    color: black !important;
+    background-color: #1e64c0 !important;
+    border-color: white;
+    font-weight: 900;
+    border-width: 2px;
+}
+.one:hover{
+    color: goldenrod !important;
+}
 
 .a{
     background-color: white;
