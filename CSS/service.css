@@ -54,7 +54,9 @@ header .navbar{
     color: darkgreen;
     border: 2px dotted white;
 }
-
+.pt-md-5{
+    padding-top: 2in;
+}
 
 
 .btn-learn-more{

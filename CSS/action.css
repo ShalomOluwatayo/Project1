@@ -35,13 +35,16 @@ header .navbar{
 .login{  
         width: 382px;  
         overflow: hidden;  
-        margin: auto;  
-        margin: 20 0 0 450px;  
-        padding: 80px;  
-        background: #23463f;  
+        margin: auto;    
+        padding-left: 100px;
+        padding-right: 400px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: black;  
         border-radius: 15px ;  
           
 }  
+
 h2{  
     text-align: center;  
     color: white !important;  
@@ -73,9 +76,23 @@ label{
     border-radius: 17px;  
     padding-left: 7px;  
     color: blue;  
-  
-  
 }  
+.loginbutton{
+    color: white !important;
+    background-color: #08ffd1;
+    font-size: larger;
+    font-weight: 900;
+}
+.loginbutton:hover{
+    color: black !important;
+    background-color: white !important;
+    border-color: #08ffd1 !important;
+
+}
+.forgotpassword{
+    text-decoration: none !important;
+    color: white;
+}
 span{  
     color: white;  
     font-size: 17px;  
