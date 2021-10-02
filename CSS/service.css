@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ header {
+    background: linear-gradient(to right,green,black);
+    height: 100vh;
+}
+
+nav{
+    background-color: transparent;
+    border-bottom: 2px solid linear-gradie;
+}
+
+.a{
+    background-color: white;
+    color: black !important;
+}
+
+.btn-get-started{
+    background-color: darkgreen;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 10px 25px;
+    transition: all .7s ease;
+    margin-right: 10px;
+}
+
+.btn-get-started:hover{
+    background-color: black;
+    color: darkgreen;
+    border: 2px dotted white;
+}
+
+
+
+.btn-learn-more{
+    background-color: black;
+    color: darkgreen;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 10px 25px;
+    transition: all .7s ease;
+    margin-right: 10px;
+}
+
+.btn-learn-more:hover{
+    background-color: coral;
+    color: purple;
+    border: 2px dotted black;
+}
+
+.btn-learn-more1{
+    background-color: purple;
+    color: blue;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 10px 25px;
+    transition: all .7s ease;
+    margin-right: 10px;
+}
+
+.btn-learn-more1:hover{
+    background-color: red;
+    color: purple;
+    border: 2px solid blue;
+}
+
+.hello{
+    background-color: darkcyan;
+}
+.text-head{
+    color: black;
+}
+
+.serviceBox{
+    color: #7c084c;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 15px 15px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.serviceBox::before{
+    content: "";
+    background: linear-gradient(to right, #ba0f81,#7c084c);
+    /* background: linear-gradient(to right,); */
+    width: 100%;
+    height: 150px;
+    border-radius: 10% 15% / 25% 20%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);  
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.serviceBox .service-icon{
+    color: #fff;
+    font-size: 40px;
+    line-height: 100px;
+    width: 100px;
+    margin: 0 auto 45px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.serviceBox .service-icon::before{
+    content: "";
+    background: #000;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4) ;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+.serviceBox .title{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+.serviceBox .description {
+    font-size: 15px;
+    color:#999;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.text-purple{
+   color: purple; 
+}
+
+.serviceBox.red{ 
+    color: #f02222;
+}
+.serviceBox.red:before{ 
+    background: linear-gradient(to right, #f44444, #f02222);
+}
+
+.serviceBox.blue{ 
+    color: #009eb3; 
+}
+.serviceBox.blue::before{
+     background: linear-gradient(to right, #07d2df, #009eb3); 
+}
+
+.serviceBox .yellow{
+    color: #00f30c;
+}
+.serviceBox.yellow::before{
+    background: linear-gradient(to right, #09fb01, #00f396) ;
+}
+
+@media(max-width: 576px){
+    .serviceBox{ margin: 0 0 30px; }
+}
+
+
+@media(max-width: 990px){
+    .serviceBox{ margin: 0 0 30px; }
+}
+/* @media(max-width:576px){
+    ul{
+        background: black ;
+    }
+} */
