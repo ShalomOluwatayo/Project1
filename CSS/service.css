@@ -1,17 +1,26 @@
 *{
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
- header {
-    background: linear-gradient(to right,green,black);
-    height: 100vh;
+header{
+    background-color:#1855a3;
 }
-
-nav{
-    background-color: transparent;
-    border-bottom: 2px solid linear-gradie;
+header .navbar{
+    background-color:#1855a3;
+}
+ .navbar-brand{
+    font-weight: bold;
+    font-size: 0.9in;
+}
+.btn{
+    color:white !important;
+    background-color: black;
+}
+.login{
+    font-weight:900;
 }
 
 .a{
