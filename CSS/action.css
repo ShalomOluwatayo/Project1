@@ -1,45 +1,59 @@
-*{
-    font-family: 'Raleway', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-header{
-    background-color:#1855a3;
-}
-header .navbar{
-    background-color:#1855a3;
-}
- .navbar-brand{
-    font-weight: bold;
-    font-size: 0.9in;
-}
-.btn{
-    color:white !important;
-    background-color: black;
-}
-.login{
-    font-weight:900;
-}
-.login:hover{
-    color: black !important;
-    background-color: #1e64c0;
-    border-color: white;
-    font-weight: 900;
-    border-width: 2px;
-}
-.one:hover{
-    color: goldenrod !important;
-}
-/* Responsiveness */
-@media(max-width: 576px){
-    .text-head{
-        padding-top: 3px;
-    }
-    .img {
-        padding-top: 4.3rem;
-    }
-    header{
-        height: 100vh;
-    }
-}
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+}  
