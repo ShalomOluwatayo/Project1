@@ -1,0 +1,85 @@
+*{
+    font-family: 'Signika', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: purple;
+    height: 80vh;
+}
+.navbar{
+    background: purple;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.btn-login{
+    background:yellow;
+    color: purple !important;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+.text-head{
+    font-weight: 600;
+    color: yellow;
+    letter-spacing: 2px;
+}
+
+.btn-get-started{
+    background: yellow;
+    color: purple;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: all .5s linear;
+    margin-right: 7px;
+}
+.btn-get-started:hover{
+    color: yellow;
+    border: 2px solid yellow;
+    background: purple;
+
+}
+.btn-learn-more{
+    background: transparent;
+    border: 2px solid yellow;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: 600;
+    color: yellow;
+    transition: all .5 linear;
+}
+.btn-learn-more:hover{
+    background: yellow;
+    color: purple;
+}
+
+/* Responsiveness */
+@media(max-width: 576px){
+    .text-head{
+        padding-top: 3px;
+    }
+    .img {
+        padding-top: 4.3rem;
+    }
+    header{
+        height: 100vh;
+    }
+}
+
+.text-purple{
+    color: purple;
+    font-size: 20px;
+}
+
+.title{
+    color: black;
+    font-weight: 600;
+}
