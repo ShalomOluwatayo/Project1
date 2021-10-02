@@ -1,5 +1,6 @@
 body  
 {  
+    font-family: 'Raleway', sans-serif;
     margin: 0;  
     padding: 0;  
     background-color:#6abadeba;  
@@ -57,3 +58,15 @@ a{
     float: right;  
     background-color: grey;  
 }  
+/* Responsiveness */
+@media(max-width: 576px){
+    .text-head{
+        padding-top: 3px;
+    }
+    .img {
+        padding-top: 4.3rem;
+    }
+    header{
+        height: 100vh;
+    }
+}
