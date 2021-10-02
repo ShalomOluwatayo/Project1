@@ -32,6 +32,30 @@ header .navbar{
 .one:hover{
     color: goldenrod !important;
 }
+.footer2{
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+.footerlink{
+    color: white !important;
+    text-decoration: none;
+}
+.footerlink:hover{
+    text-decoration: none;
+}
+.content{
+    text-align: center;
+    justify-content: center;
+}
+.px-2{
+    color: white;
+}
+.px-2:hover{
+    text-decoration: none;
+    color: goldenrod;
+    transition-duration: 0.2s;
+}
 
 /* Responsiveness */
 @media(max-width: 576px){

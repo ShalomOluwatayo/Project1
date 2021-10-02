@@ -58,7 +58,7 @@ header .navbar{
 .one:hover{
     color: goldenrod !important;
 }
-.col-md-4 .hover2:hover{
+.hover2:hover{
     border-color:whitesmoke;
     border-width: 2px;
     color:rgb(98, 98, 165) !important;
@@ -148,6 +148,27 @@ h3{
     font-size: 0.3in;
     font-weight: bolder;
     text-align: center;
+}
+.footer2{
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+.footerlink{
+    color: white !important;
+    text-decoration: none;
+}
+.footerlink:hover{
+    text-decoration: none;
+}
+.content{
+    text-align: center;
+    justify-content: center;
+}
+.px-2:hover{
+    text-decoration: none;
+    color: goldenrod;
+    transition-duration: 0.2s;
 }
 /* Responsiveness */
 /* mobile-576 */
