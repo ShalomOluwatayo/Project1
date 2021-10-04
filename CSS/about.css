@@ -50,9 +50,24 @@ header .navbar{
 .px-2{
     color: white;
 }
-.px-2:hover{
+.facebook:hover{
     text-decoration: none;
-    color: goldenrod;
+    color:  #1e64c0;
+    transition-duration: 0.2s;
+}
+.instagram:hover{
+    text-decoration: none;
+    color:  rgb(250, 91, 197);
+    transition-duration: 0.2s;
+}
+.twitter:hover{
+    text-decoration: none;
+    color:  #64a5fa;
+    transition-duration: 0.2s;
+}
+.whatsapp:hover{
+    text-decoration: none;
+    color:  #1e6;
     transition-duration: 0.2s;
 }
 /* Responsiveness */
