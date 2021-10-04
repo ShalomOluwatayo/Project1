@@ -112,6 +112,7 @@ span{
 }
 .footerlink:hover{
     text-decoration: none;
+    color:  rgb(122, 245, 239) !important;
 }
 .content{
     text-align: center;
@@ -135,9 +136,9 @@ span{
     color:  #64a5fa;
     transition-duration: 0.2s;
 }
-.whatsapp:hover{
+.telegram:hover{
     text-decoration: none;
-    color:  #1e6;
+    color:  rgb(122, 245, 239);
     transition-duration: 0.2s;
 }
 /* Responsiveness */
