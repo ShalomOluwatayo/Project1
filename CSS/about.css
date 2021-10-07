@@ -14,22 +14,15 @@ header .navbar{
     font-weight: bold;
     font-size: 0.9in;
 }
+.active{
+     color: goldenrod !important;
+}
 .btn{
     color:white !important;
     background-color: black;
 }
-.login{
-    font-weight:900;
-}
-.login:hover{
-    color: black !important;
-    background-color: #1e64c0;
-    border-color: white;
-    font-weight: 900;
-    border-width: 2px;
-}
 .one:hover{
-    color: goldenrod !important;
+     color: goldenrod !important;
 }
 .footer2{
     background-color: black;
@@ -115,9 +108,14 @@ li.dropdown {
     text-decoration: none;
     display: block;
     text-align: left;
+    font-weight: bold;
 }
-  
-.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+     color: goldenrod !important;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }

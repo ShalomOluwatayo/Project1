@@ -10,7 +10,9 @@ header{
 header .navbar{
     background-color:#1855a3;
 }
-
+.active{
+     color: goldenrod !important;
+}
  .navbar-brand{
     font-weight: bold;
     font-size: 0.9in;
@@ -46,8 +48,10 @@ li.dropdown {
     display: block;
     text-align: left;
 }
-  
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+     color: goldenrod !important;
+}
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -71,18 +75,8 @@ bg-sth{
     color:white !important;
     background-color: black !important;
 }
-.login{
-    font-weight:900 !important;
-}
-.login:hover{
-    color: black !important;
-    background-color: #1e64c0 !important;
-    border-color: white;
-    font-weight: 900;
-    border-width: 2px;
-}
 .one:hover{
-    color: goldenrod !important;
+     color: goldenrod !important;
 }
 .footer2{
     background-color: black;
