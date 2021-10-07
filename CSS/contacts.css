@@ -52,6 +52,19 @@ li.dropdown {
     display: block;
 }
 
+.py-50{
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+}
+
+bg-sth{
+    background-color: azure;
+}
+
+.sha{
+    padding-bottom: 100px;
+    text-align: center;
+}
 
 
 .btn{
