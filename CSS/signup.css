@@ -35,3 +35,8 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+a:hover{
+    color: transparent;
+    text-decoration: none;
+}

@@ -1,5 +1,6 @@
-aa:hover{
+a:hover{
     color: transparent;
+    text-decoration: none;
 }
 
 .dropbtn {
