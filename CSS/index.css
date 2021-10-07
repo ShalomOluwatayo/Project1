@@ -24,7 +24,7 @@ header .navbar{
 }
   
 .dropdown:hover .dropbtn {
-    background-color: white;
+    background-color: transparent;
 }
   
 li.dropdown {
