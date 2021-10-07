@@ -1,0 +1,85 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:#1855a3;
+}
+header .navbar{
+    background-color:#1855a3;
+}
+ .navbar-brand{
+    font-weight: bold;
+    font-size: 0.9in;
+}
+.btn{
+    color:white !important;
+    background-color: black;
+}
+.login{
+    font-weight:900;
+}
+.login:hover{
+    color: black !important;
+    background-color: #1e64c0;
+    border-color: white;
+    font-weight: 900;
+    border-width: 2px;
+}
+.one:hover{
+    color: goldenrod !important;
+}
+.footer2{
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+.footerlink{
+    color: white !important;
+    text-decoration: none;
+}
+.footerlink:hover{
+    text-decoration: none;
+    color:  rgb(122, 245, 239) !important;
+}
+.content{
+    text-align: center;
+    justify-content: center;
+}
+.px-2{
+    color: white;
+}
+.facebook:hover{
+    text-decoration: none;
+    color:  #1e64c0;
+    transition-duration: 0.2s;
+}
+.instagram:hover{
+    text-decoration: none;
+    color:  rgb(250, 91, 197);
+    transition-duration: 0.2s;
+}
+.twitter:hover{
+    text-decoration: none;
+    color:  #64a5fa;
+    transition-duration: 0.2s;
+}
+.telegram:hover{
+    text-decoration: none;
+    color:   rgb(122, 245, 239);
+    transition-duration: 0.2s;
+}
+/* Responsiveness */
+@media(max-width: 576px){
+    .text-head{
+        padding-top: 3px;
+    }
+    .img {
+        padding-top: 4.3rem;
+    }
+    header{
+        height: 100vh;
+    }
+}

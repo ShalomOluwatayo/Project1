@@ -21,6 +21,13 @@ header .navbar{
 .login{
     font-weight:900;
 }
+.login:hover{
+    color: black !important;
+    background-color: #1e64c0;
+    border-color: white;
+    font-weight: 900;
+    border-width: 2px;
+}
 .text-head{
     font-weight: 600;
     color: black;
@@ -51,7 +58,7 @@ header .navbar{
 .one:hover{
     color: goldenrod !important;
 }
-.col-md-4 .hover2:hover{
+.hover2:hover{
     border-color:whitesmoke;
     border-width: 2px;
     color:rgb(98, 98, 165) !important;
@@ -137,10 +144,47 @@ h3{
     color: goldenrod !important;
 }
 .col-md-12 p{
-    color: green;
+    color: goldenrod;
     font-size: 0.3in;
     font-weight: bolder;
     text-align: center;
+}
+.footer2{
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+.footerlink{
+    color: white !important;
+    text-decoration: none;
+}
+.footerlink:hover{
+    text-decoration: none;
+    color:  rgb(122, 245, 239) !important;
+}
+.content{
+    text-align: center;
+    justify-content: center;
+}
+.facebook:hover{
+    text-decoration: none;
+    color:  #1e64c0;
+    transition-duration: 0.2s;
+}
+.instagram:hover{
+    text-decoration: none;
+    color:  rgb(250, 91, 197);
+    transition-duration: 0.2s;
+}
+.twitter:hover{
+    text-decoration: none;
+    color:  #64a5fa;
+    transition-duration: 0.2s;
+}
+.telegram:hover{
+    text-decoration: none;
+    color:  rgb(122, 245, 239);
+    transition-duration: 0.2s;
 }
 /* Responsiveness */
 /* mobile-576 */

@@ -1,0 +1,155 @@
+body  
+{  
+    font-family: 'Raleway', sans-serif;
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;    
+}  
+header{
+    background-color:#1855a3;
+}
+header .navbar{
+    background-color:#1855a3;
+}
+ .navbar-brand{
+    font-weight: bold;
+    font-size: 0.9in;
+}
+.btn{
+    color:white !important;
+    background-color: black;
+}
+.hover{
+    font-weight:900;
+}
+.hover:hover{
+    color: black !important;
+    background-color: #1e64c0;
+    border-color: white;
+    font-weight: 900;
+    border-width: 2px;
+}
+.one:hover{
+    color: goldenrod !important;
+}
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;    
+        padding-left: 100px;
+        padding-right: 400px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: black;  
+        border-radius: 15px ;  
+          
+}  
+
+h2{  
+    text-align: center;  
+    color: white !important;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+}  
+.loginbutton{
+    color: white !important;
+    background-color: #08ffd1;
+    font-size: larger;
+    font-weight: 900;
+}
+.loginbutton:hover{
+    color: black !important;
+    background-color: white !important;
+    border-color: #08ffd1 !important;
+
+}
+.forgotpassword{
+    text-decoration: none !important;
+    color: white;
+}
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+.password{
+    float: right;
+    background-color: gray;
+}
+.footer2{
+    background-color: black;
+    font-size: 14px;
+    color: white !important;
+}
+.footerlink{
+    color: white !important;
+    text-decoration: none;
+}
+.footerlink:hover{
+    text-decoration: none;
+    color:  rgb(122, 245, 239) !important;
+}
+.content{
+    text-align: center;
+    justify-content: center;
+}
+.px-2{
+    color: white;
+}
+.facebook:hover{
+    text-decoration: none;
+    color:  #1e64c0;
+    transition-duration: 0.2s;
+}
+.instagram:hover{
+    text-decoration: none;
+    color:  rgb(250, 91, 197);
+    transition-duration: 0.2s;
+}
+.twitter:hover{
+    text-decoration: none;
+    color:  #64a5fa;
+    transition-duration: 0.2s;
+}
+.telegram:hover{
+    text-decoration: none;
+    color:  rgb(122, 245, 239);
+    transition-duration: 0.2s;
+}
+/* Responsiveness */
+@media(max-width: 576px){
+    .text-head{
+        padding-top: 3px;
+    }
+    .img {
+        padding-top: 4.3rem;
+    }
+    header{
+        height: 100vh;
+    }
+}
