@@ -40,3 +40,43 @@ a:hover{
     color: transparent;
     text-decoration: none;
 }
+.footer2{
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+.footerlink{
+    color: white !important;
+    text-decoration: none;
+}
+.footerlink:hover{
+    text-decoration: none;
+    color:  rgb(122, 245, 239) !important;
+}
+.content{
+    text-align: center;
+    justify-content: center;
+}
+.px-2{
+    color: white;
+}
+.facebook:hover{
+    text-decoration: none;
+    color:  #1e64c0;
+    transition-duration: 0.2s;
+}
+.instagram:hover{
+    text-decoration: none;
+    color:  rgb(250, 91, 197);
+    transition-duration: 0.2s;
+}
+.twitter:hover{
+    text-decoration: none;
+    color:  #64a5fa;
+    transition-duration: 0.2s;
+}
+.telegram:hover{
+    text-decoration: none;
+    color:   rgb(122, 245, 239);
+    transition-duration: 0.2s;
+}
