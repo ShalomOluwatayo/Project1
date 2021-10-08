@@ -128,7 +128,10 @@ li.dropdown {
     color: purple;
     border: 2px solid blue;
 }
-
+.col-md-12 .pt-md-5{
+    padding-right: 1in;
+    padding-left: 1in;
+}
 .hello{
     background-color: darkcyan;
 }
